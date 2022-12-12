@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background3">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/title"
+        android:text="Sign In"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:textColor="#CBDBE8"
+        android:textStyle="bold"
+        android:layout_marginVertical="50dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/user"
+        android:text="User Name or Phone"
+        android:textSize="27sp"
+        android:textColor="#CBDBE8"
+        android:layout_marginStart="10dp"
+        android:layout_marginVertical="200dp"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pass"
+        android:text="Password"
+        android:textSize="27sp"
+        android:textColor="#CBDBE8"
+        android:layout_marginStart="10dp"
+        android:layout_marginVertical="270dp"
+        android:drawableLeft="@drawable/ic_baseline_info_24"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/log"
+        android:text="Login"
+        android:textSize="27sp"
+        android:textColor="#2A44D1"
+        android:textStyle="bold"
+        android:background="@drawable/back"
+        android:gravity="center"
+        android:layout_marginVertical="340sp"
+        android:layout_marginHorizontal="40sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/f"
+        android:text="f Log in with facebook"
+        android:textSize="27sp"
+        android:textColor="#2A44D1"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginVertical="390dp"
+        android:layout_marginHorizontal="40sp"
+        android:background="@drawable/back"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/no"
+        android:text="haven't an account?"
+        android:textSize="25sp"
+        android:textColor="#CBDBE8"
+        android:gravity="center"
+        android:layout_marginVertical="455dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/n"
+        android:text="Create an account"
+        android:textColor="#CBDBE8"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_marginVertical="510dp"
+        />
+
+
+
+
+</RelativeLayout>
